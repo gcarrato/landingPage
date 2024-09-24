@@ -14,7 +14,9 @@ img{
     padding-right: 1em;
     max-width: 980px;
 }
-
+.last-articles .container p{
+    color: white;
+}
 .header{
     background: #fff;
     width: 100%;
@@ -60,9 +62,11 @@ img{
     display: block;
     padding: 25px 0;
     transition: .8s ease;
+    transition: all .3s;
 }
 .header__nav a:hover {
     color: #63c6ae;   
+    transition: all .3s;
 }
 .header__btnMenu{
     float: right;
@@ -174,7 +178,7 @@ img{
 }
 
 .hero__title{
-    background-color: #63c6ae;
+   
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -191,31 +195,53 @@ img{
 }
 
 .hero__btn{
-    border: 1px solid rgba(255,255,255,.3);
-    background-color: rgba(0,0,0,.2);
-    border-radius: 5px;
-    padding: 15px 25px;
-    display: inline-block;
-    color: white;
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #30ea69 0, #046726 180%);
+    border: 0;
+    border-radius: 25px;
+    box-shadow: rgb(22 13 40 / 40%) 0 2px 4px, rgb(5 5 5 / 30%) 0 7px 13px -3px, rgb(255 255 255) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+    text-transform:uppercase;
 }
 
-
-
-
+.hero__btn:hover{
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #54ccc4 0 -3px 0 inset;
+    transform: translateY(-2px);
+  
+}
 .people-cards{
     margin-top: 2.5em;
 }
 
 .people-cards__card{
-    
+    transition: all 0s;
 }
 .people-cards__card:hover{
     outline: 5px solid #63c6ae;
     outline-offset: -5px;
+    transition: all .3s;
 }
 .people-cards__card:hover .people-cards__avatar img{
     transform: translateY(-50%);
@@ -255,27 +281,44 @@ img{
 
 
 .content{
-    background: #f8f9f9;
-    padding: 20px 0 80px;
-    border-top: 1px solid #e3e3e3;
+   
+   /*padding: 20px 0 80px;*/
+   
 }
 
 .content h3{
-    color: #737c85;
     font-size: 21px;
-    padding-top: 40px;
-    font-weight: 400;
+    font-weight: 700;
+    color: #fff;
 }
 .paciente_thumb{
 
 width: 2em;
 height: 2em;
+ border-radius: 50%;
 display: block;
-background-color: #48b9a1;
+background-image: url("../img/ico-paciente.svg");
+background-repeat: no-repeat;
+background-position: center;
+background-color: #2691a5;
 float: left;
 margin-right: .5em;
 
 }
+.paciente_wt{
+
+    width: 4em;
+    height: 3em;
+  
+    display: block;
+    background-image: url(../img/ico-wt.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    float: right;
+    margin-right: .5em;
+    
+    }
 .content p{
     color: #929da5;
     font-size: 14px;
@@ -306,15 +349,20 @@ margin-right: .5em;
 
 
 .last-articles__title{
-    background-color: #63c6ae;
-    padding: 5px 0;
+    background-color: #1cadc2;
+  
+    padding: 1em 0;
 }
+.font_weight{
+font-weight:700;
 
+}
 .last-articles__title h2{
     font-size: 24px;
     color: white;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 600;
+
 }
 
 .last-articles__thumbs{
@@ -396,7 +444,7 @@ margin-right: .5em;
     .header{
         position: fixed;
     }
-    
+
     .logo-text{
         width: 45%;
         box-sizing: border-box;
@@ -446,11 +494,14 @@ margin-right: .5em;
     
     .content .container{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-gap: 30px;
     }
     .content .container article{
       padding: 0 25px 0;
+    }
+    .content .container article img{
+        width: 100%;
     }
     .last-articles__thumbs{
         grid-template-columns: repeat(6, 1fr);

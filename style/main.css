@@ -99,6 +99,8 @@ img{
 
 .js .laptop-slider figure{
     opacity: 0;
+    display: none;
+
     transition: 1s opacity;
     width: 100%;
     position: absolute;
@@ -110,7 +112,7 @@ img{
 .js .laptop-slider figure.show{
     opacity: 1;
     position: static;
-    
+    display: block;
 }
 .js .laptop-slider .prev, .js .laptop-slider .next{
     z-index: 3;
@@ -144,6 +146,9 @@ img{
 .js .quote-slideshow figure{
     opacity: 0;
     transition: 1s opacity;
+   
+
+
     position: absolute;
     top: 0;
     left: 50px;
@@ -154,6 +159,8 @@ img{
 .js .quote-slideshow figure.show{
     opacity: 1;
     position: static;
+
+   
     
 }
 .js .quote-slideshow .prev, .js .quote-slideshow .next{

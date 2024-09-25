@@ -99,9 +99,10 @@ img{
 
 .js .laptop-slider figure{
     opacity: 0;
-    display: none;
-
     transition: 1s opacity;
+    display: none;
+    visibility: hidden;
+
     width: 100%;
     position: absolute;
     margin: auto;
@@ -111,8 +112,11 @@ img{
 }
 .js .laptop-slider figure.show{
     opacity: 1;
-    position: static;
     display: block;
+    visibility: visible;
+
+    position: static;
+    
 }
 .js .laptop-slider .prev, .js .laptop-slider .next{
     z-index: 3;
@@ -146,9 +150,8 @@ img{
 .js .quote-slideshow figure{
     opacity: 0;
     transition: 1s opacity;
-   
-
-
+    display: none;
+    visibility: hidden;
     position: absolute;
     top: 0;
     left: 50px;
@@ -159,8 +162,8 @@ img{
 .js .quote-slideshow figure.show{
     opacity: 1;
     position: static;
-
-   
+    display: block;
+    visibility: visible;
     
 }
 .js .quote-slideshow .prev, .js .quote-slideshow .next{
@@ -532,7 +535,6 @@ font-weight:700;
         margin: 1.5em;
     }
 }
-
 
 
 

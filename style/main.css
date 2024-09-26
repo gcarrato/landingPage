@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
+  
 }
 
 img{
@@ -293,7 +294,7 @@ img{
 .people-cards__text{
     text-align: left;
     color: #929da5;
-    font-size: 14px;    
+    font-size: 1em;    
 }
 
 
@@ -339,7 +340,7 @@ margin-right: .5em;
     }
 .content p{
     color: #929da5;
-    font-size: 14px;
+    font-size: 1em;
     word-spacing: 3px;
 }
 .button{
@@ -421,7 +422,7 @@ font-weight:700;
 
 .quote-slideshow h2{
     color: white;
-    font-size: 30px;
+    font-size: 1.2em;
     font-style: italic;
     font-weight: normal;
 }
@@ -450,7 +451,7 @@ font-weight:700;
 .rodape{
     max-width: 980px;
     display: grid;
-    grid-template-columns: 54px 54px 54px 200px;
+    grid-template-columns: 50px 50px 50px 50px 170px;
     justify-items: center;
     color: white;
     align-items: center;
@@ -503,9 +504,52 @@ text-decoration: none;
 text-decoration: none;
 color: white;
 }
+.icone_dep{
+width: 65px;
+height: 65px;
+
+border-radius: 50%;
+float: left;
+    margin: .3em 1em .3em 0;
+    border: 2px solid white;
+   position: relative;
+}
+.icone_texto{
+ font-size: 1.1em;
+}
+.icone_dep img{
+    position: absolute;
+    border-radius: 50%;
+
+}
+.titulo_dep{
+    display: flex;
+  align-items: center;
+margin-bottom: 1em;
+
+}
+
+.container_info{
+padding: 1em;
+    display: flex;
+    justify-content: center;
+   
+    color: rgb(131, 129, 129);
+    font-size: .8em;
+    padding-bottom: 9em;
+}
+._info{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4em;
+    width: 980px;
+
+}
+/*RESPONSIVO */
 @media screen and (min-width: 1024px){
     .rodape{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         
     }
     .header{

@@ -17,6 +17,8 @@ img{
 }
 .last-articles .container p{
     color: white;
+    padding: 40px 25px 10px;
+
 }
 .header{
     background: #fff;
@@ -515,11 +517,12 @@ height: 65px;
 border-radius: 50%;
 float: left;
     margin: .3em 1em .3em 0;
-    border: 2px solid white;
+
    position: relative;
 }
 img.star_dep{
- width: 5em;
+    max-width: 100%;
+    width: 5em;
 
 }
 .icone_texto{

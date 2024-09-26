@@ -57,7 +57,7 @@ img{
 .header__nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #586165;
+    color: #ffffff;
     font-size: 14px;
     font-weight: 600;
     display: block;
@@ -443,7 +443,8 @@ font-weight:700;
     bottom: 0;
     width: 100%;
     background-color: #242a2cc9;
-    padding: .3em;
+    padding-top: .3em;
+    padding-bottom: .3em;
    display: flex;
    justify-content: center;
 }
@@ -459,6 +460,9 @@ font-weight:700;
     opacity: 1;
  
    
+}
+.rodape img{
+width: 100%;
 }
 
 .rodape span:hover{
@@ -513,6 +517,10 @@ float: left;
     margin: .3em 1em .3em 0;
     border: 2px solid white;
    position: relative;
+}
+img.star_dep{
+ width: 5em;
+
 }
 .icone_texto{
  font-size: 1.1em;

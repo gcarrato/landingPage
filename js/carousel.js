@@ -1,3 +1,13 @@
+var video = document.getElementsByClassName("video")
+
+function play(){
+    video.play
+}
+
+function pause(){
+    video.pause
+}
+
 function Carousel(config){
     this.container = ( typeof config.container === 'string') ? document.querySelector(config.container) : config.container
     
@@ -17,11 +27,12 @@ function Carousel(config){
         
         Array.prototype.forEach.call(_show, function(sh){
             sh.classList.remove('show')
+           
         })
         _this.itens[0].classList.add('show')
         _this.btnNext.removeAttribute('style')
         _this.btnPrev.removeAttribute('style')
-        
+         
         addListeners()        
     }
     
@@ -33,11 +44,13 @@ function Carousel(config){
     function showNextSlide(){
         _currentSlide++;
         showSlide()
+       
     }
     
     function showPrevSlide(){
         _currentSlide--;
         showSlide()
+      
     }
     
     function showSlide(){

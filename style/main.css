@@ -59,7 +59,7 @@ img{
 .header__nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #ffffff;
+    color:rgb(131, 129, 129);
     font-size: 14px;
     font-weight: 600;
     display: block;
@@ -311,6 +311,7 @@ img{
     font-size: 21px;
     font-weight: 700;
     color: #fff;
+    padding-left: 20px;
 }
 .paciente_thumb{
 
@@ -609,7 +610,7 @@ padding: 1em;
         background: white;        
     }
     
-    
+  
     .people-cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);

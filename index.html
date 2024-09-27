@@ -125,16 +125,68 @@
 
         <div class="laptop-slider">            
           <div class="slideshow">
-            <figure><iframe src="https://www.youtube.com/embed/nl4GZbUwbMo?si=qCjWiz-Ki9RTCFjM"  frameborder="0"  ></iframe></figure>
+            <figure>
 
-            <figure><iframe src="https://www.youtube.com/embed/-TAaw7reD_U?si=ANQCOMcFRRd8kmjK"  frameborder="0"></iframe></figure>
-            
-            <figure><iframe  src="https://www.youtube.com/embed/VMoVT6k2TPw?si=3hUTYF0jP0yTFlYW" frameborder="0" ></iframe></figure>
-           <!-- <figure><img alt="" src="img/slider/slide-02.png" /></figure>
-            <figure><img alt="" src="img/slider/slide-01.png" /></figure>
-            <figure><img alt="" src="img/slider/slide-02.png" /></figure>-->
-            <span class="prev"  style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
+
+
+
+              <main>
+                <section>
+                  <div class="center">
+                    <h2>CONHEÇA A WINNERS TIME</h2>
+              
+                    <div id="YouTube-player"></div>
+              
+                    <div>
+                      <span class="nowrap">
+                        <div onclick="document.getElementById('YouTube-video-id').value='VMoVT6k2TPw'; youTubePlayerChangeVideoId();"><span class="bt_video">1</span></div>
+                        <div onclick="document.getElementById('YouTube-video-id').value='-TAaw7reD_U'; youTubePlayerChangeVideoId();"><span class="bt_video">2</span></div>
+                        <div onclick="document.getElementById('YouTube-video-id').value='nl4GZbUwbMo'; youTubePlayerChangeVideoId();"><span class="bt_video">3</span></div>
+                       
+                      </span>
+              
+                      <span class="nowrap margin-left-m margin-right-m">
+                    <label for="YouTube-video-id"></label>
+                        <input style="display: none;" id="YouTube-video-id" type="text" value="VMoVT6k2TPw" size="12" pattern="[_\-0-9A-Za-z]{11}" onchange="onPlayerStateChange();">
+                      </span>
+              
+                      <span class="nowrap">
+                        <button class="button_player" onclick="youTubePlayerPlay();">Play</button>
+                        <button class="button_player" onclick="youTubePlayerPause();">Pause</button>
+                        <button class="button_player" onclick="youTubePlayerStop();">Stop</button>
+                      </span>
+                    </div>
+              
+                
+              
+             
+                  </div>
+              
+               
+                </section>
+              
+             
+              </main>
+              
+
+
+
+
+
+
+
+
+            </figure>
+
+           
+         
+            <span class="prev" style="display: none;"><i class="fas fa-angle-left fa-4x"></i></span>
             <span class="next"  style="display: none;"><i class="fas fa-angle-right fa-4x"></i></span>
+
+
+          
+         
+
           </div>                    
         </div>
         

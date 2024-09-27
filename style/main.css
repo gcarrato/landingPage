@@ -129,9 +129,11 @@ img{
 }
 .js .laptop-slider .prev{
     left: 0px;
+    display: none;
 }
 .js .laptop-slider .next{
     right: 0px;
+    display: none;
 }
 
 
@@ -408,7 +410,7 @@ font-weight:700;
 }
 
 .slideshow{
-    white-space: nowrap;
+    white-space: wrap;
 }
 .slideshow figure{
     display: inline-block;
@@ -637,7 +639,104 @@ padding: 1em;
 }
 
 
-
+/* IFRAME */
+.nowrap{
+    float: left;
+    display: flex;
+    margin-top: 1em;
+}
+.bt_video{
+width: 2em;
+height: 2em;
+color: white;
+background-color: #1cadc2;
+border-radius: 50%;    
+display: flex;
+justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+margin-right: .5em;
+cursor: pointer;
+transition: all .3s;
+opacity: 1;
+}
+.bt_video:hover{
+    transition: all .3s;
+    opacity: .5;
+}
+.button_player{
+    position: relative;
+    /* margin: 0 auto 20px auto; */
+    padding: 14px;
+    float: left;
+    display: block;
+    border-radius: 18px;
+    height: .2em;
+    display: flex;
+    align-items: center;
+    background-color: #1badc2;
+    color: #fff;
+    border: 0;
+    /* gap: 3em; */
+    margin-right: .3em;
+}
+.buttons:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(238, 238, 238, 0);
+	border-top-color: #eee;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.button {
+	padding: 10px 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	outline: none;
+	cursor: pointer;
+	color: white;
+	background-color: #7F8C8D;
+	border: none;
+	border-radius: 4px;
+}
+#play-button {
+	background-color: #2ECC71;
+}
+#play-button:hover {
+	background-color: #27AE60;
+}
+#pause-button {
+	background-color: #E67E22;
+}
+#pause-button:hover {
+	background-color: #D35400;
+}
+#stop-button {
+	background-color: #E74C3C;
+}
+#stop-button:hover {
+	background-color: #C0392B;
+}
+#pause-button,
+#stop-button {
+	margin-left: 15px;
+}
+iframe {
+	margin: 0 auto;
+	width: 560px;
+	height: 315px;
+	float: left;
+	clear: both;
+	display: block;
+	background-color: #eee;
+}
 
 
 

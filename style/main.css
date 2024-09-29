@@ -67,6 +67,10 @@ color: white;
 
 }
 
+#bt_nav1:hover, #bt_nav2:hover{
+opacity: .5;
+}
+
 .header__nav a {
     text-decoration: none;
     text-transform: uppercase;

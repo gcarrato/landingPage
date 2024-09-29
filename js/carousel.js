@@ -23,6 +23,9 @@ var youTubePlayer;
  * https://developers.google.com/youtube/iframe_api_reference
  * https://developers.google.com/youtube/player_parameters?playerVersion=HTML5
  */
+
+
+
 function onYouTubeIframeAPIReady() {
     'use strict';
 
@@ -32,6 +35,7 @@ function onYouTubeIframeAPIReady() {
     var height = 300;
     var width = 400;
     var youTubePlayerVolumeItemId = 'YouTube-player-volume';
+    
 
 
     function onError(event) {
@@ -240,6 +244,7 @@ function youTubePlayerPlay() {
 
     if (youTubePlayerActive()) {
         youTubePlayer.playVideo();
+        document.getElementById("bt_play_videos").style.display = "none";
     }
 }
 
@@ -394,3 +399,6 @@ function Carousel(config){
     }
     
 }
+
+
+

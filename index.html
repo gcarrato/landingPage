@@ -26,8 +26,8 @@
           
           <nav class="header__nav">
             <ul>
-              <li><a href="https://estabelecimento.rappidexx.com.br/public-search-establishment/8f02ab20-8b89-4bbd-8b6a-c0afbb08e330" target="_self">Paciente</a></li>
-              <li><a href="https://www.winnerstime.com.br/pages/contact.html" target="_self">Profissional</a></li>
+              <li><a  id="bt_nav1" href="https://estabelecimento.rappidexx.com.br/public-search-establishment/8f02ab20-8b89-4bbd-8b6a-c0afbb08e330" target="_self">Acesso Paciente</a></li>
+              <li ><a id="bt_nav2" href="https://www.winnerstime.com.br/pages/contact.html" target="_self">Credenciamento Profissional</a></li>
               
             </ul>
           </nav>
@@ -137,7 +137,8 @@
               
                     <div id="YouTube-player"></div>
               
-                    <div>
+                    <div class="container_play">
+                      <div id="bt_play_videos" class="play_video"onclick="youTubePlayerPlay()"><img src="img/-ico_play.svg"></div>
                       <span class="nowrap">
                         <div onclick="document.getElementById('YouTube-video-id').value='VMoVT6k2TPw'; youTubePlayerChangeVideoId();"><span class="bt_video">1</span></div>
                         <div onclick="document.getElementById('YouTube-video-id').value='-TAaw7reD_U'; youTubePlayerChangeVideoId();"><span class="bt_video">2</span></div>
@@ -147,7 +148,8 @@
               
                       <span class="nowrap margin-left-m margin-right-m">
                     <label for="YouTube-video-id"></label>
-                        <input style="display: none;" id="YouTube-video-id" type="text" value="VMoVT6k2TPw" size="12" pattern="[_\-0-9A-Za-z]{11}" onchange="onPlayerStateChange();">
+                    
+                        <input style="display:none;" id="YouTube-video-id" type="text" value="VMoVT6k2TPw" size="12" pattern="[_\-0-9A-Za-z]{11}" onchange="youTubePlayerChangeVideoId();">
                       </span>
               
                       <span class="nowrap">

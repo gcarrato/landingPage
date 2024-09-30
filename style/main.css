@@ -5,6 +5,11 @@ body{
   
 }
 
+@font-face {
+    font-family: roboto;
+    src: url("../font/Roboto-Regular.ttf");
+  }
+
 img{
     max-width: 100%;
 }
@@ -17,7 +22,7 @@ img{
 }
 .last-articles .container p{
     color: white;
-    padding: 40px 25px 10px;
+    padding: 20px 25px 10px;
 
 }
 .header{
@@ -235,7 +240,9 @@ opacity: .5;
     font-size: 28px;
     font-weight: 600;
     padding: 30px 20px;
-    text-transform: uppercase;
+ font-family: 'roboto';
+ filter: drop-shadow(2px 2px 1px #1b2e429f);
+    
 }
 
 .hero__text{
@@ -328,6 +335,7 @@ opacity: .5;
     text-align: left;
     color: #929da5;
     font-size: 1em;    
+    padding-top: 1em;
 }
 
 

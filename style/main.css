@@ -49,6 +49,7 @@ img{
 .header__nav ul{
     margin: 0;
     padding: 0;
+    
 }
 .header__nav li {
     list-style-type: none;
@@ -63,7 +64,8 @@ color: white;
 }
 #bt_nav2{
     border-radius: 50px;
-    border: solid 2px #1badc2;
+    border: solid 1px #848383;
+
 
 }
 
@@ -334,6 +336,13 @@ opacity: .5;
     color: #fff;
     padding-left: 20px;
 }
+
+.center h3{
+    font-size: 21px;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 20px;
+}
 .paciente_thumb{
 
 width: 2em;
@@ -423,7 +432,7 @@ font-weight:700;
 
 .laptop-slider{
     background-color: #242a2c;
-    padding: 125px 0 100px;
+    padding: 50px 0 50px;
     width: 100%;
     overflow: auto;
 }
@@ -691,25 +700,34 @@ padding: 1em;
 }
 
 .nowrap{
+    float: right;
+    display: flex;
+    margin-top: 1em;
+    margin-left: .3em;
+}
+.nowrap2{
     float: left;
     display: flex;
     margin-top: 1em;
+    padding-left: .3em;
+
 }
 .bt_video{
-width: 2em;
-height: 2em;
-color: white;
-background-color:#30ea69;
-border-radius: 50%;    
-display: flex;
-justify-content: space-between;
+    width: 2em;
+    height: 2em;
+    color: white;
+    /* background-color: #30ea69; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-margin-right: .5em;
-cursor: pointer;
-transition: all .3s;
-opacity: 1;
+    margin-right: .5em;
+    cursor: pointer;
+    transition: all .3s;
+    opacity: 1;
+    border: solid 1px;
 }
 
 .bt_video:hover{
@@ -728,6 +746,23 @@ opacity: 1;
     display: flex;
     align-items: center;
     background-color: #1badc2;
+    color: #fff;
+    border: 0;
+    /* gap: 3em; */
+    margin-right: .3em;
+}
+.button_play{
+    position: relative;
+    cursor: pointer;
+    /* margin: 0 auto 20px auto; */
+    padding: 14px;
+    float: left;
+    display: block;
+    border-radius: 18px;
+    height: .2em;
+    display: flex;
+    align-items: center;
+    background-color: #30ea69;
     color: #fff;
     border: 0;
     /* gap: 3em; */

@@ -592,7 +592,7 @@ padding: 1em;
 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4em;
+    grid-gap: 2em;
     width: 980px;
 
 }
@@ -760,6 +760,12 @@ padding: 1em;
     border: 0;
     /* gap: 3em; */
     margin-right: .3em;
+    transition: all .3s;
+    opacity: 1;
+}
+.button_player:hover, .button_play:hover{
+    transition: all .3s;
+    opacity: .5;
 }
 .button_play{
     position: relative;

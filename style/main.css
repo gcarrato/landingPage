@@ -30,7 +30,11 @@ img{
     width: 100%;
     z-index: 10;
 }
-
+.menu_resp{
+font-size: .8em;
+margin-bottom: .2em;
+color: #000000;
+}
 .logo-text{
   
     margin: 0;
@@ -58,6 +62,7 @@ img{
 
 }
 #bt_nav1{
+
 background-color: #1badc2;
 border-radius: 50px;
 color: white;
@@ -65,7 +70,7 @@ color: white;
 #bt_nav2{
     border-radius: 50px;
     border: solid 1px #848383;
-
+  
 
 }
 
@@ -94,7 +99,7 @@ opacity: .5;
 }
 .header__btnMenu{
     float: right;
-    margin: 1.5em;
+    margin: .7em;
     background: transparent;
     border: none;
     font-size: 14px;

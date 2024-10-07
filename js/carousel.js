@@ -116,6 +116,7 @@ function youTubePlayerChangeVideoId() {
                                });
     youTubePlayer.pauseVideo();
     youTubePlayerDisplayFixedInfos();
+    
 }
 
 

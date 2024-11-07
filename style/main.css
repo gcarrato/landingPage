@@ -2,7 +2,11 @@ body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-  
+    background-image: url("../img/rodape_mobile.svg"); 
+    background-repeat: no-repeat;
+    background-position: bottom center ;
+    background-size: 100%;
+   
 }
 
 @font-face {
@@ -237,9 +241,9 @@ opacity: .5;
 .hero__title{
    
     color: white;
-    font-size: 28px;
+    font-size: 1.1em;
     font-weight: 600;
-    padding: 30px 20px;
+/*padding: 30px 20px;*/
  font-family: 'roboto';
  filter: drop-shadow(2px 2px 1px #1b2e429f);
     
@@ -494,7 +498,7 @@ font-weight:700;
     bottom: 0;
     width: 100%;
     background-color: #242a2cc9;
-    padding-top: .3em;
+    padding-top: 1.3em;
     padding-bottom: .3em;
    display: flex;
    justify-content: center;
@@ -509,7 +513,7 @@ font-weight:700;
     align-items: center;
     transition: all .3s;
     opacity: 1;
- 
+
    
 }
 .rodape img{
@@ -611,7 +615,15 @@ padding: 1em;
 /*RESPONSIVO */
 @media screen and (min-width: 1024px){
    
-
+    body{
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.5;
+        background-image: url("../img/rodape.svg") !important; 
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        background-size: contain;
+    }
     .container_play{
         position: relative;
         width: 100%;
@@ -619,6 +631,16 @@ padding: 1em;
    
     }
 
+    .hero__title{
+font-size: 2em;
+    }
+  .ms_natal{
+
+    display: block;
+    float: left;
+    color: #929da5;
+    font-size: .5em;
+  }
     .rodape{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         
@@ -853,8 +875,28 @@ iframe {
 	display: block;
 	background-color: #eee;
 }
+.banner {
+margin-top: .5em;
+   
+   }
+.loca{
+    display: block;
+    width: 18px;
+    height: 17px;
+    float: left;
+}
+.banner img{
+ width: 100%;
 
+}
+@font-face {
+    font-family:Roboto-Bold;
+    src: url(../font/Roboto-Bold.ttf)
+  }
+.dest_foot{
 
+    font-family:Roboto-Bold;
+}
 
 
 

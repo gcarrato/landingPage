@@ -624,7 +624,7 @@ padding: 1em;
 }
 #container_iframe iframe{
     margin-right: 1em;
-
+    overflow-x: visible;
 }
 #container_iframe::-webkit-scrollbar {
     width: 12px;    

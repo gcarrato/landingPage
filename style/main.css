@@ -613,18 +613,18 @@ padding: 1em;
 #container_iframe{
 
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
     max-width: 350px;
-    max-height: 500px;
     margin-top: 3em;
     border: 3px solid #000000;
     background-color: #555655;
     overflow-x: visible;
 }
 
-
 #container_iframe::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
+    width: 12px;    
+    height: 12px;           /* width of the entire scrollbar */
     overflow-x: visible;
   }
   
@@ -665,7 +665,7 @@ padding: 1em;
         display: flex;
         overflow-x: scroll;
         max-width: 350px;
-        max-height: 500px;
+      
     margin-top: 3em;
     overflow-x: visible;
     }
@@ -760,24 +760,6 @@ font-size: 2em;
 
 /* IFRAME */
 
-#container_iframe{
-
-    display: flex;
-    overflow-x: scroll;
-    max-width: 350px;
-    max-height: 500px;
-margin-top: 3em;
-background-color: #242a2c;
-}
-#container_iframe::-webkit-scrollbar {
-   
-  }
-
-section.content iframe{
-    max-width: 350px;
-    max-height: 500px;
-    margin-right: .5em;
-}
 .container_play{
     position: relative;
     width: 100%;

@@ -616,7 +616,7 @@ padding: 1em;
     overflow-x: scroll;
     overflow-y: hidden;
     max-width: 350px;
-    height: 350px !important;
+    height: 330px !important;
     margin-top: 3em;
     border: 3px solid #000000;
     background-color: #555655;
@@ -627,9 +627,11 @@ padding: 1em;
     overflow-x: visible;
 }
 #container_iframe::-webkit-scrollbar {
-    width: 12px;    
+    width: 22px;    
+  height: 25px !important;
        /* width of the entire scrollbar */
     overflow-x: visible;
+    cursor: pointer;
   }
   
   #container_iframe::-webkit-scrollbar-track {
@@ -670,8 +672,15 @@ padding: 1em;
         max-width: 350px;
         max-height: 315px !important;
     margin-top: 3em;
-    overflow-x: visible;
+    overflow-x: visible !important;
     }
+    #container_iframe::-webkit-scrollbar {
+        width: 22px;    
+      height: auto !important;
+           /* width of the entire scrollbar */
+        overflow-x: visible;
+        cursor: pointer;
+      }
 
     .hero__title{
 font-size: 2em;

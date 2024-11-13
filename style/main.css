@@ -627,6 +627,7 @@ padding: 1em;
 
 #container_iframe div{
 margin-right: .2em;
+
 }
 #container_iframe div:last-child{
     margin-right: .0em !important;
@@ -634,7 +635,7 @@ margin-right: .2em;
 #container_iframe iframe{
    
     overflow-x: visible;
-    max-width: 319px;
+    max-width: 350px;
     height: 344px 
 }
 
@@ -644,7 +645,7 @@ margin-right: .2em;
        /* width of the entire scrollbar */
     overflow-x: visible;
     cursor: pointer;
- 
+    touch-action: auto;
   }
   
   #container_iframe::-webkit-scrollbar-track {

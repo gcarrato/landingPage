@@ -668,7 +668,7 @@ padding: 1em;
         display: flex;
         overflow-x: scroll;
         max-width: 350px;
-       max-height: 315px !important;
+        max-height: 315px !important;
     margin-top: 3em;
     overflow-x: visible;
     }

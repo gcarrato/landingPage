@@ -610,9 +610,16 @@ padding: 1em;
     width: 980px;
 
 }
+.centraliza{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 #container_iframe{
 
     display: flex;
+  
     overflow-x: scroll;
     overflow-y: hidden;
     max-width: 350px;

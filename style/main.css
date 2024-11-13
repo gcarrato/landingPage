@@ -613,7 +613,7 @@ padding: 1em;
 #container_iframe{
 
     display: flex;
-    overflow-x: scroll;
+    overflow-x: auto;
     max-width: 350px;
     max-height: 500px;
     margin-top: 3em;
@@ -625,18 +625,19 @@ padding: 1em;
 
 #container_iframe::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
+    overflow-x: visible;
   }
   
   #container_iframe::-webkit-scrollbar-track {
     background:#555655;        /* color of the tracking area */
-
+    overflow-x: visible;
   }
   
   #container_iframe::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 255);    /* color of the scroll thumb */
     border-radius: 20px;       /* roundness of the scroll thumb */
     border: 3px solid #555655;  /* creates padding around scroll thumb */
-  
+    overflow-x: visible;
   }
 
 
@@ -666,6 +667,7 @@ padding: 1em;
         max-width: 350px;
         max-height: 500px;
     margin-top: 3em;
+    overflow-x: visible;
     }
 
     .hero__title{

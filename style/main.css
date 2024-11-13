@@ -691,7 +691,7 @@ margin-right: .2em;
 
         display: flex;
         overflow-x: scroll;
-        max-width: 319px !important;
+        max-width: 350px !important;
         max-height: 315px !important;
     margin-top: 3em;
     overflow-x: visible !important;
@@ -978,6 +978,7 @@ a.feed-powered-by-es, .es-header-btn{
    opacity: 0 !important;
 
 }
+
 
 
 

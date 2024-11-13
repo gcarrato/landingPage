@@ -616,6 +616,7 @@ padding: 1em;
     overflow-x: scroll;
     overflow-y: hidden;
     max-width: 350px;
+    height: 600px !important;
     margin-top: 3em;
     border: 3px solid #000000;
     background-color: #555655;
@@ -624,7 +625,7 @@ padding: 1em;
 
 #container_iframe::-webkit-scrollbar {
     width: 12px;    
-    height: 12px;           /* width of the entire scrollbar */
+       /* width of the entire scrollbar */
     overflow-x: visible;
   }
   

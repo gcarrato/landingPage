@@ -687,22 +687,7 @@ margin-right: .2em;
   
     }
 
-    #container_iframe{
 
-        display: flex;
-        overflow-x: scroll;
-        max-width: 350px !important;
-        max-height: 315px !important;
-    margin-top: 3em;
-    overflow-x: visible !important;
-    }
-    #container_iframe::-webkit-scrollbar {
-        width: 22px;    
-      height: auto !important;
-           /* width of the entire scrollbar */
-        overflow-x: visible;
-        cursor: pointer;
-      }
 
     .hero__title{
 font-size: 2em;

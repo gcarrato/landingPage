@@ -301,16 +301,12 @@ opacity: .5;
 .people-cards__card{
     transition: all 0s;
 }
-.people-cards__card:hover{
-    outline: 5px solid #63c6ae;
-    outline-offset: -5px;
-    transition: all .3s;
-}
+
 .people-cards__card:hover .people-cards__avatar img{
     transform: translateY(-50%);
 }
-.people-cards__card:hover .people-cards__title,
-.people-cards__card:hover .people-cards__text{
+.people-cards__card:hover ,
+.people-cards__card:hover {
     color: #63c6ae;
 }
 
@@ -329,6 +325,7 @@ opacity: .5;
     padding: 40px 25px 10px;
  
 }
+
 .people-cards__title{
     color: #737c85;
     font-size: 21px;
@@ -349,7 +346,13 @@ opacity: .5;
    /*padding: 20px 0 80px;*/
    
 }
+.people-cards__content h3{
 
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(131, 129, 129);
+    padding-left: 20px;
+}
 .content h3{
     font-size: 21px;
     font-weight: 700;
@@ -964,6 +967,10 @@ a.feed-powered-by-es, .es-header-btn{
 
 }
 
+.foto_medico{
 
+    display: block;
+
+}
 
 

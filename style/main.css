@@ -608,7 +608,7 @@ padding: 1em;
 ._info{
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+   /* grid-template-columns: repeat(2, 1fr);*/
     grid-gap: 2em;
     width: 980px;
 
@@ -938,7 +938,7 @@ iframe {
 	background-color: #eee;
 }
 .banner {
-margin-top: .5em;
+margin-top: .6em;
    
    }
 .loca{

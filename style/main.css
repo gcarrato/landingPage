@@ -38,6 +38,7 @@ img{
     position: fixed;
     width: 100%;
     z-index: 10;
+ 
 }
 .menu_resp{
 font-size: .8em;
@@ -70,21 +71,30 @@ color: #000000;
     text-align: center;
 
 }
+li a .bt_menu img{
+    display: none;
+}
 #bt_nav1{
 
 background-color: #1badc2;
 border-radius: 50px;
 color: white;
-
-
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
+
 #bt_nav2{
     background-color: #54cdc4;
     color: #ffffff;
     border-radius: 50px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
 
 #bt_nav1:hover, #bt_nav2:hover{
 opacity: .5;
@@ -100,7 +110,7 @@ opacity: .5;
     padding: 15px 0;
     transition: .8s ease;
     transition: all .3s;
-   margin-top: 1.5em;
+   margin-top: .5em;
    margin-bottom: .5em;
    margin-right: .3em;
    margin-left: .3em;
@@ -348,23 +358,30 @@ opacity: .5;
 }
 .people-cards__content h3{
 
-    font-size: 21px;
-    font-weight: 700;
+    font-size: 2.3em;
+    font-weight: 400;
     color: rgb(131, 129, 129);
     padding-left: 20px;
 }
 .content h3{
-    font-size: 21px;
-    font-weight: 700;
+    font-size: 2.3em;
+    font-weight: 400;
     color: #fff;
     padding-left: 20px;
 }
 
 .center h3{
-    font-size: 21px;
-    font-weight: 700;
+    font-size: 2.3em;
+    font-weight: 400;
     color: #fff;
     padding-left: 20px;
+}
+.quote-slideshow h3{
+    font-size: 2.4em;
+    font-weight: 400;
+    color: #fff;
+    padding-left: 20px;
+
 }
 .paciente_thumb{
 
@@ -690,7 +707,21 @@ margin-right: .2em;
         width: 100%;
   
     }
-
+.header__nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color:rgb(131, 129, 129);
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    padding: 15px 0;
+    transition: .8s ease;
+    transition: all .3s;
+   margin-top: 1.5em;
+   margin-bottom: .5em;
+   margin-right: .3em;
+   margin-left: .3em;
+}
 
 
     .hero__title{
@@ -724,6 +755,7 @@ font-size: 2em;
         height: 60px;
         margin-left: 30%;
         margin-top: 1em;
+        margin-right: 2em;
     }
     .logo-text{
    max-width: 100%;
@@ -743,18 +775,31 @@ font-size: 2em;
         display: flex;
         justify-content: space-around;
         padding: 0;
+       
     }
-    
+  
     .header__nav li {
         border-bottom: none;
         flex-grow: 1;
     }
+
     
-    .header__nav a{
-        background: white;        
+    .header__nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color:rgb(131, 129, 129);
+        font-size: 14px;
+        font-weight: 600;
+        display: block;
+        padding: 15px 0;
+        transition: .8s ease;
+        transition: all .3s;
+       margin-top: 1.5em;
+       margin-bottom: .5em;
+       margin-right: .3em;
+       margin-left: .3em;
+       background: white;     
     }
-    
- 
     .people-cards{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -776,7 +821,23 @@ font-size: 2em;
     .last-articles__thumbs{
         grid-template-columns: repeat(6, 1fr);
     }
-    
+
+    #bt_nav1{
+
+        color: rgb(130, 127, 127);
+        background-color: transparent;
+        border-radius: 0;
+        display: flex;
+        }
+        #bt_nav2{
+           background-color: transparent;
+            color:rgb(130, 127, 127);
+            border-radius: 0;
+            display: flex;
+        }
+        li a .bt_menu img{
+            display: block;
+        }
 
 }
 

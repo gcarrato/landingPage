@@ -297,9 +297,42 @@ opacity: .5;
     will-change: box-shadow, transform;
     font-size: 18px;
     text-transform:uppercase;
+    margin-bottom: .5em;
+}
+.hero__btn2{
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #36d8ed 0, #035b67 180%);
+    border: 0;
+    border-radius: 25px;
+    box-shadow: rgb(22 13 40 / 40%) 0 2px 4px, rgb(5 5 5 / 30%) 0 7px 13px -3px, rgb(255 255 255) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 15px;
+    text-transform:uppercase;
+    margin-bottom: .5em;
 }
 
-.hero__btn:hover{
+.hero__btn:hover, .hero__btn2:hover{
     box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #54ccc4 0 -3px 0 inset;
     transform: translateY(-2px);
   
@@ -760,7 +793,7 @@ font-size: 2em;
         width: 270px;
         height: 60px;
         margin-left: 30%;
-        margin-top: 1.7em;
+        margin-top: 1.6em;
         margin-right: 2em;
     }
     .logo-text{
@@ -1024,7 +1057,7 @@ iframe {
 	background-color: #eee;
 }
 .banner {
-margin-top: .6em;
+margin-top: 3em;
    
    }
 .loca{

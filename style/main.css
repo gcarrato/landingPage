@@ -48,12 +48,12 @@ color: #000000;
 .logo-text{
   
     margin: 0;
-    background-image: url("../img/logo-mobile_natal.png");
+    background-image: url("../img/logo-mobile.png");
     background-repeat: no-repeat;
-    width: 78px;
-    height: 69px;
+    width: 91px;
+    height: 41px;
     float: left;
-    margin: .5em .4em .4em .7em;
+    margin: .7em .4em .4em .7em;
 
 }
 
@@ -251,7 +251,7 @@ opacity: .5;
 .hero__title{
    
     color: white;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 600;
 /*padding: 30px 20px;*/
  font-family: 'roboto';

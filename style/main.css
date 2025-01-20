@@ -9,6 +9,15 @@ body{
    
 }
 
+.quote-container iframe{
+
+width: 100%;
+height: 400px;
+overflow: hidden;
+
+}
+
+
 @font-face {
     font-family: roboto;
     src: url("../font/Roboto-Regular.ttf");
